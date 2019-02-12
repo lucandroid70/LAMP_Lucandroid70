@@ -112,10 +112,11 @@ apt install git -y
 #Apache2 SSL https://
 
 a2enmod ssl
-a2ensite default-ssl
+a2ensite default-ssl.conf
 service apache2 reload
 service apache2 restart
-cat /etc/apache2/sites-available/default-ssl.conf
+#cat /etc/apache2/sites-available/default-ssl.conf
+#;) enjoy lucandroid70@gmail.com "luca saturday"  
 
 
 
